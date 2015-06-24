@@ -174,7 +174,6 @@ public class Board extends JPanel implements ActionListener {
 
 	private void generateNewPiece() {
 		int index = Math.abs(rand.nextInt()%7);
-		System.out.println(index);
 		switch (index) {
 		case 0:
 			fallingPiece = new Shape(Constants.Type.Straight);
